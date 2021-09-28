@@ -61,10 +61,21 @@
 </nav>
 
     <main class="flex-shrink-0">
-       <div class="container">
-           <h1 class="mt-5">Grid Seven</h1>
-           
-       </div>
+        <div class="container-fluid mt-5 minHeight h-100">
+            <h1 class="text-center">Grid Six</h1>
+            <div class="row row-cols-1 row-cols-md-2 gy-2 text-white h-100 mb-2">
+                <div class="col col-md-12">
+                    <div class="h-100 bg-secondary p-3">Col One</div>
+                </div>
+                <div class="col col-md-6 order-md-last">
+                    <div class="h-100 bg-dark p-3">Col Two - but ordered last</div>
+                </div>
+                <div class="col col-md-6">
+                    <div class="h-100 bg-secondary p-3">Col Three</div>
+                </div>
+
+            </div>
+        </div>
     </main>
     <footer class="footer mt-auto py-3 bg-light sticky-footer">
         <div class="container-fluid text-center">
