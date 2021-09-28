@@ -8,3 +8,23 @@ main>.container {
     bottom: 0;
     width: 100%;
 }
+
+.heroText{
+font-family:modesto-open-shadow, sans-serif;
+font-weight: 500;
+color: rgb(226, 188, 17);
+}
+.minHeight{
+    min-height: 80vh;
+}
+.bgImage{
+    background-image: url('/img/GridBG.png');
+    background-repeat: none;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.centerContent{
+    
+}
