@@ -12,13 +12,13 @@ main>.container {
 .heroText{
 font-family:modesto-open-shadow, sans-serif;
 font-weight: 500;
-color: rgb(226, 188, 17);
+color: rgb(17, 168, 168);
 }
 .minHeight{
     min-height: 80vh;
 }
 .bgImage{
-    background-image: url('/img/GridBG.png');
+    background-image: url('/img/bsGridsBg.jpg');
     background-repeat: none;
     background-size: cover;
     background-position: center;
