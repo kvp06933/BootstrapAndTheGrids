@@ -2,6 +2,10 @@ main>.container {
     padding: 60px 15px 0;
     margin-bottom: 5rem;
 }
+main>.container-fluid {
+    padding: 60px 15px 0;
+    margin-bottom: 5rem;
+}
 .sticky-nav {
     position: fixed;
     left: 0;
@@ -24,7 +28,8 @@ color: rgb(17, 168, 168);
     background-position: center;
     background-attachment: fixed;
 }
-
-.centerContent{
-    
+.gridBgImage{
+    background-color:#3d4299;
 }
+
+
