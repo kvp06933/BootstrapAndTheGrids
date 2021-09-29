@@ -84,7 +84,9 @@
  </main>
     <footer class="footer mt-auto py-3 bg-light sticky-footer">
         <div class="container-fluid text-center">
-            <span class="text-muted"><span>&copy;</span> Katherine Pitts 2021</span>
+            <span class="text-muted" id="Copyright"><section id="year"></section><script>
+                document.getElementById("Copyright").innerHTML = `Copyright &copy;&nbsp;${new Date().getFullYear()} Katherine Pitts`
+                </script></span>
         </div>
     </footer>
     <!-- Bootstrap JS -->
