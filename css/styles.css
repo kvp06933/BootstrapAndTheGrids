@@ -1,3 +1,13 @@
+:root{
+    --activeLink: rgba(0,0,0,0.5);
+    --bgColor: #151e29;
+    --bgColorTwo: #2b578d;
+    --navbarBg:#d67553;
+    --navLink: rgba(255,255,255,0.7);
+}
+body, footer{
+    background-color:#fcf8e3;
+}
 main>.container {
     padding: 60px 15px 0;
     margin-bottom: 5rem;
@@ -12,24 +22,46 @@ main>.container-fluid {
     bottom: 0;
     width: 100%;
 }
+.bg-secondaryColumn{
+    background-color: #a8612e;
+}
+.bg-darkColumn{
+    background-color:#d67553;
+}
+h1{
+    color: var(--bgColorTwo);
+}
+.bg-dark{
+    background-color: #a8612e!important;
+}
+.bg-secondary{
+    background-color: #d67553!important;
+}
+.navbarLink .nav-item a, .navbar-brand {
+    color: var(--navLink);
+}
+.navbarLink .nav-item a:hover, .navbar-brand:hover{
+    color: rgba(0,0,0,0.5);
+}
+.nav-item a.active {
+    color: var(--activeLink);
+}
 
 .heroText{
 font-family:modesto-open-shadow, sans-serif;
 font-weight: 500;
-color: rgb(17, 168, 168);
+color: #2b578d;
 }
 .minHeight{
     min-height: 80vh;
 }
 .bgImage{
-    background-image: url('/img/bsGridsBg.jpg');
+    background-image: url('/img/digitalOrange.svg');
     background-repeat: none;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
 }
-.gridBgImage{
-    background-color:#3d4299;
-}
+
 
 
